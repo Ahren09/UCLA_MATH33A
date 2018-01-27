@@ -83,8 +83,12 @@
   
   However, A(x<sub>b</sub> - Ax<sub>c</sub>) = 0 has two solutions. This is a contradiction.
   
-  ### Matricies
-  * Add, multiply, compuute inverse when `n = m`
-  * Properties of inverses
-    * If you are given A, B and you are asked to prove that A = B, it's enough to show that A<sup>-1</sup> = B<sup>-1</sup>.
-  * Transpose properties
+### Matricies
+* Add, multiply, compuute inverse when `n = m`
+* Properties of inverses
+  * If you are given A, B and you are asked to prove that A = B, it's enough to show that A<sup>-1</sup> = B<sup>-1</sup>.
+* Transpose properties
+#### Matrix Examples
+* Example 1: Show that a square matrix with two rows equal to each other is not invertible.
+  
+  Answer: Consider the rref(A. If x<sub>j</sub> = x<sub>k</sub> for `j ≠ k`, then by adding -x<sub>j</sub> to x<sub>k</sub> we get a row of zeros in the rref(A). Note that j and k denote rows.
