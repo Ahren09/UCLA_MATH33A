@@ -68,3 +68,7 @@
 * Example 3: Following from the previous example, what happens when `n < m` (the number of unknowns is less than the number of equations)?
 
   Answer: There is only one solution. 
+
+* Example 4: If `Ax = 0` has infinitely many solutions, does there exist some real number `b` such that `Ax = b` has no solution when `n > m`?
+  
+  Answer: No.
