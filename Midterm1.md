@@ -72,3 +72,7 @@
 * Example 4: If `Ax = 0` has infinitely many solutions, does there exist some real number `b` such that `Ax = b` has no solution when `n > m`?
   
   Answer: No.
+
+* Example 4: Following from the previous example, what if `m > n`?
+  
+  Answer: Yes.
