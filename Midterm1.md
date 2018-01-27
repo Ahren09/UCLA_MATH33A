@@ -35,4 +35,14 @@
       | 0 1 1 0 |  | y |   =   | 1 |
       | 0 0 1 3 |  | z |       | 0 |
       ```
-      We now apply Gauss-Jordan:
+      We now apply Gauss-Jordan. In order, our row operations are: -2(i)+(ii); 3(iii) + (ii); -3(iv) + (iii)
+      As a result, we get the system:
+      ```
+       w  + 2x     +      3z = 0
+          - 3x     + (-6+a)z = b
+                3y + (-6+a)z = 3+b
+                    (-15+a)z = b+3
+       ```
+       * If `a ≠ 15`, then `z = (3+b)/(-15+a)`. Through backwards substitution, we get a unique solution for the system.
+       * If `a = 15` and `b ≠ -3`, then there is no solution.
+       * If `a = 15` and `b = -3`, then we have infinitely many solutions of the form 
