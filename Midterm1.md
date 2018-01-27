@@ -104,4 +104,12 @@
 * Shears (only in ℝ<sup>2</sup>)
 
 #### Rotations
-Fact: rot<sub>ϴ<sub>1</sub></sub>(rot<sub>ϴ<sub>2</sub></sub>(x)) = rot<sub>ϴ<sub>1</sub>+ϴ<sub>2</sub></sub>(x)
+Fact: 
+
+rot<sub>ϴ<sub>1</sub></sub>(rot<sub>ϴ<sub>2</sub></sub>(x)) = rot<sub>ϴ<sub>1</sub>+ϴ<sub>2</sub></sub>(x)
+
+= rot<sub>ϴ<sub>1</sub></sub>(R<sub>ϴ<sub>2</sub></sub>x)
+
+= R<sub>ϴ<sub>1</sub></sub> • (R<sub>ϴ<sub>2</sub></sub>x)
+
+= (R<sub>ϴ<sub>1</sub></sub> • R<sub>ϴ<sub>2</sub></sub>)x
