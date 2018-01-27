@@ -7,4 +7,6 @@
 * Matrix inversion
 * Linear transformations
 * Geometric operations through linear transformation
-
+### How to solve linear systems and the Gauss-Jordan algorithm
+* Gauss-Jordan algorithm
+  1. Set coefficient of x<sub>j</sub> equal to 1 in the j<sup>th</sup> equation and eliminate it from the rest.
