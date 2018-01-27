@@ -100,6 +100,6 @@
 ### Geometric Operations
 * Dilations
 * Projections
-* Reflections (along lines in R<sup>2</sup> and R<sup>3</sup>; along planes in R<sup>3</sup>)
-* Rotations (only in R<sup>2</sup>)
-* Shears (only in R<sup>2</sup>)
+* Reflections (along lines in ℝ<sup>2</sup> and ℝ<sup>3</sup>; along planes in ℝ<sup>3</sup>)
+* Rotations (only in ℝ<sup>2</sup>)
+* Shears (only in ℝ<sup>2</sup>)
