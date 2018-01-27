@@ -113,3 +113,7 @@ rot<sub>ϴ<sub>1</sub></sub>(rot<sub>ϴ<sub>2</sub></sub>(x)) = rot<sub>ϴ<sub>1
 = R<sub>ϴ<sub>1</sub></sub> • (R<sub>ϴ<sub>2</sub></sub>x)
 
 = (R<sub>ϴ<sub>1</sub></sub> • R<sub>ϴ<sub>2</sub></sub>)x
+
+##### Rotation Examples
+* [Example 1](Images/rex1.jpg)
+* [Example 2](Images/rex2.jpg)
