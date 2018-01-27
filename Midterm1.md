@@ -96,11 +96,10 @@
 * [Example 2](Images/ex1.jpg)
 * [Example 3](Images/ex2.jpg)
 * [Example 4](Images/ex3.jpg)
-* [Example 5](Images/ex4.jpg)
 
 ### Geometric Operations
 * Dilations
 * Projections
-* Reflections (along lines in R<sup>2 and R<sup>3</sup>; along planes in R<sup>3</sup>)
+* Reflections (along lines in R<sup>2</sup> and R<sup>3</sup>; along planes in R<sup>3</sup>)
 * Rotations (only in R<sup>2</sup>)
 * Shears (only in R<sup>2</sup>)
