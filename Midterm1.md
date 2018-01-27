@@ -60,7 +60,7 @@
   Choose A = I, B = -I. Then, rank(A) + rank(B) = n + n = 2n.
   
   However, rank(A + B) = rank(0<sub>n x n</sub> = 0 ≠ 2n.
-  
+  / 
 * Example 2: Let A be an `m x n` matrix. If `Ax = b` has no solutions, is it true that `Ax = 0` has infinitely many solutions when `n > m`? Note that `n` is the number of unknowns and `m` is the number of equations.
 
   Answer: Since the number of unknowns is greater than the number of equations, `Ax = 0` has infinitely many solutions by looking at the rref(A).
@@ -76,3 +76,15 @@
 * Example 4: Following from the previous example, what if `m > n`?
   
   Answer: Yes. Consider the rref(A). If `Ax = 0` has infinitely many solutions, then rref(A) cannot be I<sub>n x n</sub>.
+
+* Example 5: If `Ax = 0` has a unique solution, does `Ax = b` have a unique solution if `n = m` and we know that there exists at least one solution to `Ax = b`?
+
+  Answer: Yes. Assume that the given solution to `Ax = b` is x = x<sub>b</sub> and assume that there is another solution to it. x = x<sub>c</sub> ≠ x<sub>b</sub>. Then, Ax<sub>b</sub> - Ax = 0.
+  
+  However, A(x<sub>b</sub> - Ax<sub>c</sub>) = 0 has two solutions. This is a contradiction.
+  
+  ### Matricies
+  * Add, multiply, compuute inverse when `n = m`
+  * Properties of inverses
+    * If you are given A, B and you are asked to prove that A = B, it's enough to show that A<sup>-1</sup> = B<sup>-1</sup>.
+  * Transpose properties
