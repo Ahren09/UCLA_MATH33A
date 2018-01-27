@@ -54,6 +54,9 @@
          ```
          
 * Example: Is it always true that rank(A+B) = rank(A) + rank(B)?
+
   Let A, B be square matricies.
+  
   Choose A = I, B = -I. Then, rank(A) + rank(B) = n + n = 2n.
+  
   However, rank(A + B) = rank(0<sub>n x n</sub> = 0 ≠ 2n.
