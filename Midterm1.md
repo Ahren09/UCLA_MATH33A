@@ -102,3 +102,6 @@
 * Reflections (along lines in ℝ<sup>2</sup> and ℝ<sup>3</sup>; along planes in ℝ<sup>3</sup>)
 * Rotations (only in ℝ<sup>2</sup>)
 * Shears (only in ℝ<sup>2</sup>)
+
+#### Rotations
+Fact: rot<sub>ϴ<sub>1</sub></sub>(rot<sub>ϴ<sub>2</sub>(x)) = rot<sub>ϴ<sub>1</sub>
