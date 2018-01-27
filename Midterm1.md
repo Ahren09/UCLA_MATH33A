@@ -75,4 +75,4 @@
 
 * Example 4: Following from the previous example, what if `m > n`?
   
-  Answer: Yes.
+  Answer: Yes. Consider the rref(A). If `Ax = 0` has infinitely many solutions, then rref(A) cannot be I<sub>n x n</sub>.
