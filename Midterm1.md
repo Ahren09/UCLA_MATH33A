@@ -93,4 +93,5 @@
   
   Answer: Consider the rref(A. If x<sub>j</sub> = x<sub>k</sub> for `j ≠ k`, then by adding -x<sub>j</sub> to x<sub>k</sub> we get a row of zeros in the rref(A). Note that j and k denote rows.
 
-* Example 2: Take x, project it on L; w is a vector parallel to L. [Consider the matrix A](Images/ex1.jpg)
+* [Example 2](Images/ex1.jpg)
+* [Example 3](Images/ex2.jpg)
