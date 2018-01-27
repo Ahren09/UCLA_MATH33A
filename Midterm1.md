@@ -45,4 +45,11 @@
        ```
        * If `a ≠ 15`, then `z = (3+b)/(-15+a)`. Through backwards substitution, we get a unique solution for the system.
        * If `a = 15` and `b ≠ -3`, then there is no solution.
-       * If `a = 15` and `b = -3`, then we have infinitely many solutions of the form 
+       * If `a = 15` and `b = -3`, then we have infinitely many solutions of the form: 
+         ```
+         | 1 |   | -9 |
+         | 1 |   |  3 |
+         | 0 | + | -3 |
+         | 0 |   |  1 |
+         ```
+         
