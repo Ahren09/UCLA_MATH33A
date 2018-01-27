@@ -19,21 +19,20 @@
 * From rref(A), we can determine rank(A), which is simply the number of leading 1s.
 * **KNOW THE PROPERTIES OF RANK(A); MEANING OF RANK**
 
-Example: Consider the system
+* Example: Consider the system
 
-```
- w  + 2x     + 3z = 0
-2w +   x     + az = b
-       x + y      = 1
-           y + 3z = 0
-```
+  ```
+   w  + 2x     + 3z = 0
+  2w  +  x     + az = b
+         x + y      = 1
+             y + 3z = 0
+  ```
 
-Solution:
-
-In matrix form, we have Ax = c
-```
-| 1 2 0 3 |  | w |       | 0 |
-| 2 1 0 a |  | x |       | b |
-| 0 1 1 0 |  | y |   =   | 1 |
-| 0 0 1 3 |  | z |       | 0 |
-```
+    * Solution: In matrix form, we have Ax = c.
+      ```
+      | 1 2 0 3 |  | w |       | 0 |
+      | 2 1 0 a |  | x |       | b |
+      | 0 1 1 0 |  | y |   =   | 1 |
+      | 0 0 1 3 |  | z |       | 0 |
+      ```
+      We now apply Gauss-Jordan:
