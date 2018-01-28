@@ -11,6 +11,10 @@
 * Chapter 1.1: 31-41
 * Chapter 1.2: 19-30
 * Chapter 1.3: 6-8, 22-48
+* Chapter 2.1: 13-15, 33-40, 43-45
+* Chapter 2.2: 14-34, 39-45
+* Chapter 2.3: 31-48, 55-66
+* Chapter 2.4: 30-48, 52-79
 ### Solving Linear Systems with Gauss-Jordan Algorithm
 * Gauss-Jordan algorithm
   1. Set coefficient of x<sub>j</sub> equal to 1 in the j<sup>th</sup> equation and eliminate it from the rest
