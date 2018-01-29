@@ -123,4 +123,60 @@ rot<sub>ϴ<sub>1</sub></sub>(rot<sub>ϴ<sub>2</sub></sub>(x)) = rot<sub>ϴ<sub>1
 * [Example 2](Images/rex2.jpg)
 
 #### Transformations
+* Scaling by a constant `k` in both axes:
+  ```
+  | k 0 |
+  | 0 k |
+  ```
+* Stretching by a constant `k` parallel to x-axis:
+  ```
+  | k 0 |
+  | 0 1 |
+  ```
+* Stretching by a constant `k` parallel to y-axis:
+  ```
+  | 1 0 |
+  | 0 k |
+  ```
+* Shear by a constant `k` parallel to x-axis (horizontal shear):
+  ```
+  | 1 k |
+  | 0 1 |
+  ```
+* Shear by a constant `k` parallel to y-axis (vertical shear):
+  ```
+  | 1 0 |
+  | k 1 |
+  ```
+* Counterclockwise rotation:
+  ```
+  | cosθ -sinθ |
+  | sin   cosθ |
+  ```
+* Clockwise rotation:
+  ```
+  | cosθ  sinθ |
+  | -sin  cosθ |
+  ```
+* 180 degree rotation:
+  ```
+  | -1  0 |
+  |  0 -1 |
+  ```
+* Reflection:
+  ```
+  | cos2θ   sin2θ |
+  | sin2θ  -cos2θ |
+  ```
+* Reflection along the x-axis:
+  ```
+  | 1  0 |
+  | 0 -1 |
+  ```
+* Reflection along the y-axis:
+  ```
+  | -1  0 |
+  |  0  1 |
+  ```
 * [Example 1](Images/tex1.jpg)
+
