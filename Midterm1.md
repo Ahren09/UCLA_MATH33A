@@ -63,7 +63,7 @@
   Choose A = I, B = -I. Then, rank(A) + rank(B) = n + n = 2n.
   
   However, rank(A + B) = rank(0<sub>n x n</sub>) = 0 ≠ 2n.
-  / 
+  
 * Example 2: Let A be an `m x n` matrix. If `Ax = b` has no solutions, is it true that `Ax = 0` has infinitely many solutions when `n > m`? Note that `n` is the number of unknowns and `m` is the number of equations.
 
   Answer: Since the number of unknowns is greater than the number of equations, `Ax = 0` has infinitely many solutions by looking at the rref(A).
