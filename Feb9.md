@@ -94,8 +94,15 @@ A = | v1      v2 | is invertible.
   * But from Gauss-Jordan: (number of free variables of Ax = 0) + (columns with leading 1s in rref(A)) = (number of columns in A)
 ## Coordinates
 * How do we move through different coordinate systems in a subspace?
-* Let V be a subspace of ℝ<sup>n</sup>. B = {v<sup>1</sup>, ..., v<sup>2</sup>} is a basis of V.
-  * Every v in V can be written as v = c<sup>1</sup>v<sup>1</sup> + ... + c<sup>m</sup>v<sup>m</sup>
+* Let V be a subspace of ℝ<sub>n</sub>. B = {v<sub>1</sub>, ..., v<sub>2</sub>} is a basis of V.
+  * Every v in V can be written as v = c<sub>1</sub>v<sub>1</sub> + ... + c<sub>m</sub>v<sub>m</sub>
   * These c variables are unique for every v with respect to B
 ### Definition
-* The numbers c<sup>1</sup>, ..., c<sup>n</sup> are called the B-coordinates of v.
+* The numbers c<sub>1</sub>, ..., c<sub>n</sub> are called the B-coordinates of v.
+* Notation: [v]<sub>B</sub> =
+  ```
+  | c_1 |
+  | ... |
+  | c_m |
+  ```
+   * Meaning v = S[v]<sub>B</sub>
