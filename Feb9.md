@@ -42,3 +42,7 @@
   2. We need at least k vectors to span V
   3. If k vectors in V are linearly independent, then they form a basis of V
   4. If k vectors in V span V, then they form a basis of V
+#### Example
+* Typical exercise: find a basis for
+  * N(A) -> solve Ax = 0.
+  * R(A) -> find rref(A). Consider the columns with leading 1s.
