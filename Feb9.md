@@ -105,4 +105,4 @@ A = | v1      v2 | is invertible.
   | ... |
   | c_m |
   ```
-   * Meaning v = S[v]<sub>B</sub>
+  * Meaning v = S[v]<sub>B</sub>
