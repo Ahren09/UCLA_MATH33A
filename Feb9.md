@@ -89,3 +89,6 @@ A = | v1      v2 | is invertible.
   * Why? 
     * N(A) is a subspace of ℝ<sup>n</sup>. 
     * dim(N(A)) = number of free variables of Ax = 0.
+* R(A) is a subspace of ℝ<sup>n</sup>.
+  * dim(R(A)) = number of columns with leading 1s in rref(A)
+  * But from Gauss-Jordan: (number of free variables of Ax = 0) + (columns with leading 1s in rref(A)) = (number of columns in A)
