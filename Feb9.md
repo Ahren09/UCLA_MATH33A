@@ -86,5 +86,6 @@ A = | v1      v2 | is invertible.
        | ...    ... |
      ```
 * On the rank-nullity theorem: if A is `n x m`, dim(R(A)) + dim(N(A)) = m.
-  * Why? N(A) is a subspace of ℝ<sup>n</sup>. 
-    dim(N(A)) = number of free variables of Ax = 0.
+  * Why? 
+    * N(A) is a subspace of ℝ<sup>n</sup>. 
+    * dim(N(A)) = number of free variables of Ax = 0.
