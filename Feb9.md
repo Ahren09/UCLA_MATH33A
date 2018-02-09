@@ -40,3 +40,5 @@
 * Let V be a subspace of ℝ<sup>n</sup> (V ⊆ ℝ<sup>n</sup>) and let dim(V) = k. Then the following are equivalent:
   1. We can find at most K linearly independent vectors in V
   2. We need at least k vectors to span V
+  3. If k vectors in V are linearly independent, then they form a basis of V
+  4. If k vectors in V span V, then they form a basis of V
