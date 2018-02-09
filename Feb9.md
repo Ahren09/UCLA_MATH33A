@@ -80,11 +80,11 @@ A = | v1      v2 | is invertible.
   4. R(A) =  ℝ<sup>n</sup>
   5. rref(A) = I<sub>n</sub>
   6. 
-     ```
+   ```
        | ...    ... |
    A = | v_1    v_m | => {v_1, ..., v_m} is a basis of ℝ^n.
        | ...    ... |
-     ```
+   ```
 * On the rank-nullity theorem: if A is `n x m`, dim(R(A)) + dim(N(A)) = m.
   * Why? 
     * N(A) is a subspace of ℝ<sup>n</sup>. 
