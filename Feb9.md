@@ -49,4 +49,4 @@
 ### Fact
 * dim(R(A)) = rank(A)
 ### Theorem
-* Let A be an `n x m` matrix. Then, **dim(N(A)) + dim(R(A)) = m = number of columns**.
+* Let A be an `n x m` matrix. Then, **dim(N(A)) + dim(R(A)) = m**.
