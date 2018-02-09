@@ -42,7 +42,11 @@
   2. We need at least k vectors to span V
   3. If k vectors in V are linearly independent, then they form a basis of V
   4. If k vectors in V span V, then they form a basis of V
-#### Solving a Typical Basis Exercise
+## Solving a Typical Basis Exercise
 * Find a basis for
   * N(A) -> solve Ax = 0.
   * R(A) -> find rref(A). Consider the columns with leading 1s.
+### Fact
+* dim(R(A)) = rank(A)
+### Theorem
+* Let A be an `n x m` matrix. Then, **dim(N(A)) + dim(R(A)) = m = number of columns**.
