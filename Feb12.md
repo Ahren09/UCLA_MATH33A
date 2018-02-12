@@ -38,9 +38,6 @@
   * [f(x)]<sub>B</sub> = A<sub>B</sub>[x]<sub>B</sub>
   * Ex: A<sub>1</sub>, A<sub>B</sub> are similar
     * If B<sub>1</sub> and B<sub>2</sub> are any two bases of ℝ<sup>m</sup> 
-### Properties of Similar Matricies
-1. If A is similar to B, then B is similar to A
-2. If A is similar to B and B is similar to C, then A is similar to C
 * How to find A<sub>B</sub>:
   ```
         |    ...           ...     |
@@ -69,3 +66,6 @@
   * AS = SA<sub>B</sub>
   * A<sub>B</sub> = S<sup>-1</sup>AS
 * Definition: The square matricies A, B are *similar* if there exists an inverrible nxn matrix S such that AS = SB.
+### Properties of Similar Matricies
+1. If A is similar to B, then B is similar to A
+2. If A is similar to B and B is similar to C, then A is similar to C
