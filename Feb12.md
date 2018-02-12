@@ -63,3 +63,4 @@
   ```
   * AS = SA<sub>B</sub>
   * A<sub>B</sub> = S<sup>-1</sup>AS
+* Definition: The square matricies A, B are *similar* if there exists an inverrible nxn matrix S such that AS = SB.
