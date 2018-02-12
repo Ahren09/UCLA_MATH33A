@@ -26,3 +26,12 @@
       [v]_b = | x/2 |
               | y/2 |
       ```
+### Finding A
+* For {e<sub>1</sub>, ..., e<sub>m</sub>}, the standard basis of ℝ<sup>n</sup> we evaluate
+  ```
+      |  ...     ...  |
+  A = | f(e_1) f(e_m) |
+      |  ...     ...  |
+  ```
+#### Theorem
+* Let f ℝ<sup>m</sup> -> ℝ<sup>n</sup> be a linear transformation and let B={v<sub>1</sub>, ..., v<sub>1</sub>} be a basis of  ℝ<sup>m</sup>. Then there exists a matrix A<sub>B</sub> that takes [x]<sub>B</sub> to [f(x)]<sub>B</sub>
