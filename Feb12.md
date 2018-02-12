@@ -34,4 +34,25 @@
       |  ...     ...  |
   ```
 #### Theorem
-* Let f ℝ<sup>m</sup> -> ℝ<sup>n</sup> be a linear transformation and let B={v<sub>1</sub>, ..., v<sub>1</sub>} be a basis of  ℝ<sup>m</sup>. Then there exists a matrix A<sub>B</sub> that takes [x]<sub>B</sub> to [f(x)]<sub>B</sub>
+* Let f ℝ<sup>m</sup> -> ℝ<sup>n</sup> be a linear transformation and let B={v<sub>1</sub>, ..., v<sub>1</sub>} be a basis of  ℝ<sup>m</sup>. Then there exists a matrix A<sub>B</sub> that takes [x]<sub>B</sub> to [f(x)]<sub>B</sub>.
+  * [f(x)]<sub>B</sub> = A<sub>B</sub>[x]<sub>B</sub>
+* How to find A<sub>B</sub>:
+  ```
+        |    ...           ...     |
+  A_B = | [f(v_1)]_b    [f(v_m)]_b |
+        |    ...           ...     |
+ 
+  ```
+  * Ex: f is ℝ<sup>2</sup> -> ℝ<sup>2</sup>, f(x,y) = (x+y, y). F is a linear transformation such that B<sub>ℝ<sup>2</sup></sub>={e<sub>1</sub>, e<sub>2</sub>}. What is A (2x2) such that f(x) = Ax?
+    ```
+    B =  { | 2 |   | 0 | }
+           | 0 | , | 2 |
+           
+          |  ...       ...  |
+    A_B = | f(2,0)   f(0,2) |
+          |  ...       ...  |
+        
+         = | 2 2 |
+           | 0 2 |
+    ```
+### Coordinate System Changes
