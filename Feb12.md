@@ -41,7 +41,6 @@
         |    ...           ...     |
   A_B = | [f(v_1)]_b    [f(v_m)]_b |
         |    ...           ...     |
- 
   ```
   * Ex: f is ℝ<sup>2</sup> -> ℝ<sup>2</sup>, f(x,y) = (x+y, y). F is a linear transformation such that B<sub>ℝ<sup>2</sup></sub>={e<sub>1</sub>, e<sub>2</sub>}. What is A (2x2) such that f(x) = Ax?
     ```
