@@ -65,6 +65,7 @@
   ```
   * AS = SA<sub>B</sub>
   * A<sub>B</sub> = S<sup>-1</sup>AS
+  * S is called the *change of basis* matrix from B<sub>1</sub> to B<sub>2</sub>. Hence, [x]<sub>B<sub>1</sub></sub> = S[x]<sub>B<sub>s</sub></sub> 
 * Definition: The square matricies A, B are *similar* if there exists an inverrible nxn matrix S such that AS = SB.
 ### Properties of Similar Matricies
 1. If A is similar to B, then B is similar to A
