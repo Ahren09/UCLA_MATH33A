@@ -36,6 +36,11 @@
 #### Theorem
 * Let f ℝ<sup>m</sup> -> ℝ<sup>n</sup> be a linear transformation and let B={v<sub>1</sub>, ..., v<sub>1</sub>} be a basis of  ℝ<sup>m</sup>. Then there exists a matrix A<sub>B</sub> that takes [x]<sub>B</sub> to [f(x)]<sub>B</sub>.
   * [f(x)]<sub>B</sub> = A<sub>B</sub>[x]<sub>B</sub>
+  * Ex: A<sub>1</sub>, A<sub>B</sub> are similar
+    * If B<sub>1</sub> and B<sub>2</sub> are any two bases of ℝ<sup>m</sup> 
+### Properties of Similar Matricies
+1. If A is similar to B, then B is similar to A
+2. If A is similar to B and B is similar to C, then A is similar to C
 * How to find A<sub>B</sub>:
   ```
         |    ...           ...     |
