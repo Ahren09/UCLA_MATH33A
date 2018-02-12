@@ -3,7 +3,7 @@
 * Notation: V ⊆ ℝ<sup>n</sup>
   * V is a subspace of ℝ<sup>n</sup>
 * B = {v<sub>1</sub>, ..., v<sub>m</sub>}
-* For every v in V, there exist unique numbers (with respect to B) c<sub>1</sub>, ..., c<sub>m</sub> such that v=c<sub>1</sub>v<sub>1</sub>+c<sub>m</sub>v<sub>m</sub> where c values are B-coordinates of V
+* For every v in V, there exist unique numbers (with respect to B) c<sub>1</sub>, ..., c<sub>m</sub> such that v=c<sub>1</sub>v<sub>1</sub>+c<sub>m</sub>v<sub>m</sub> where c values are *B-coordinates of V*
 * Notation: [v]<sub>B</sub> = 
   ```
   | c_1 |
