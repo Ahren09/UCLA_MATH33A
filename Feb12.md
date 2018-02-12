@@ -55,3 +55,11 @@
            | 0 2 |
     ```
 ### Coordinate System Changes
+* Where
+  ```
+        | ...   ... |
+    S = | v_1   v_m |
+        | ...   ... |
+  ```
+  * AS = SA<sub>B</sub>
+  * A<sub>B</sub> = S<sup>-1</sup>AS
