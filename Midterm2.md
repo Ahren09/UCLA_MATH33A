@@ -13,5 +13,6 @@ If V is a subspace of R<sup>n</sup>, then 0 is in V. If 0 is not in V, V cannot 
 1. V = {(x,y,z) ∈ R<sup>4</sup> | x-y+10w=0}. Is V a subspace of R<sup>4</sup>?
    * Solution: Let X, Y be elements of V such that X = (x<sub>1</sub>+...+x<sub>4</sub>) and Y = (y<sub>1</sub>+...+y<sub>4</sub>). Check wheter λV + μY exist in R<sup>4</sup> and all λμ are in R. 
      * Note: λX + μY = (λx<sub>1</sub>μy<sub>1</sub>, ..., λx<sub>4</sub>μy<sub>4</sub>) = (t<sub>1</sub>,..., t<sub>4</sub>)
-     * Need to check t<sub>1</sub>-t<sub>2</sub>+t<sub>4</sub> = 0.
-     * Note: t<sub>1</sub>-t<sub>2</sub>+t<sub>4</sub> = λ(x<sub>1</sub>-x<sub>2</sub>+10x<sub>4</sub>) + μ(y<sub>1</sub>-y<sub>2</sub>+10y<sub>4</sub>)
+     * Need to check t<sub>1</sub>-t<sub>2</sub>+10t<sub>4</sub> = 0.
+     * Note: t<sub>1</sub>-t<sub>2</sub>+10t<sub>4</sub> = λ(x<sub>1</sub>-x<sub>2</sub>+10x<sub>4</sub>) + μ(y<sub>1</sub>-y<sub>2</sub>+10y<sub>4</sub>)
+     * But as X and Y are elements of V, x<sub>1</sub>-x<sub>2</sub>+10x<sub>4</sub>=0 and y<sub>1</sub>-y<sub>2</sub>+10y<sub>4</sub> imply that t<sub>1</sub>-t<sub>2</sub>+10t<sub>4</sub> = 0 and λX + μY are elements of V
