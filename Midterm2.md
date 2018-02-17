@@ -1,15 +1,14 @@
 # Midterm 2 (Feb 16, 2018)
 ## Subspaces
-### Definition
 Given a subset V of R<sup>n</sup>, how do we check if V is a subspace?
 * To show it is a subspace, verify:
   1. For all x and y, x+y exists in V
   2. For all x, x exists in V. Also, for any constant λ, λx exists in V.
   * Suggestion: pick two random x and y in V and show that λx + μy exist in V.
 * To show it is not a subspace, it is enough to demonstrate that for either one of the two above conditions fail.
-#### Remark
+### Remark
 If V is a subspace of R<sup>n</sup>, then 0 is in V. If 0 is not in V, V cannot be a subspace.
-#### Example
+### Example
 1. V = {(x,y,z) ∈ R<sup>4</sup> | x-y+10w=0}. Is V a subspace of R<sup>4</sup>?
    * Solution: Let X, Y be elements of V such that X = (x<sub>1</sub>+...+x<sub>4</sub>) and Y = (y<sub>1</sub>+...+y<sub>4</sub>). Check wheter λV + μY exist in R<sup>4</sup> and all λμ are in R. 
      * Note: λX + μY = (λx<sub>1</sub>μy<sub>1</sub>, ..., λx<sub>4</sub>μy<sub>4</sub>) = (t<sub>1</sub>,..., t<sub>4</sub>)
