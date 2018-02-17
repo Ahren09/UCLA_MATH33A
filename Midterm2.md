@@ -96,3 +96,4 @@ How to find the matrix of a linear transformation with respect to a given basis?
 If C, B are two different bases for V, then A<sub>B</sub> is similar to A<sub>C</sub>. There exists an invertible matrix S such that  A<sub>B</sub>S = SA<sub>C</sub>.
 ### Exercises
 * 1(a) from practice midterm
+* Book section 3.4; exercises 19-30, 39-64
