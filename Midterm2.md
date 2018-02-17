@@ -1,7 +1,7 @@
 # Midterm 2 (Feb 16, 2018)
 ## Subspaces
 ### Definition
-Given a subset V of R<sup>n</sup>, how do we check if it is a subspace or not?
+Given a subset V of R<sup>n</sup>, how do we check if V is a subspace?
 * To show it is a subspace, verify:
   1. For all x and y, x+y exists in V
   2. For all x, x exists in V. Also, for any constant λ, λx exists in V.
