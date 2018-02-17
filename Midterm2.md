@@ -39,3 +39,17 @@ R(A) = all the linear combinations of v<sub>1</sub>, ..., v<sub>n</sub>, where a
    * What is R(T)? Because any number can be written in the form v<sub>1</sub>x<sub>1</sub>+...+v<sub>3</sub>x<sub>3</sub> for some x<sub>1</sub>, ..., x<sub>3</sub> ∈ R, we know that R(T) = R.
 4. A is a `u x p` matrix. B is `p x m`. How can you relate N(AB) and N(B)? Note that if x is an element of N(B), then Bx=0. This implies (AB)x=0. In turn, x is an element of N(AB), meaning N(B) is a subset of N(AB). Is it true that N(B) = N(AB)?
    * Solution: No. Pick a matrix B that is `p x p` that is invertible, so N(B) = {0}. Pick A=0, so N(AB) = R<sup>n</sup>
+## Linear Independence
+v<sub>1</sub>, ..., v<sub>m</sub> are linearly independent if the only solution of c<sub>1</sub>v<sub>1</sub> + ... + c<sub>m</sub>v<sub>m</sub> = 0 if c<sub>1</sub>+...+c<sub>m</sub>=0. Or, let A be a matrix with column vectors v<sub>1</sub>,..., v<sub>m</sub>. The vectors are linearlly independent if the only solution of Ax=0 is x=0.
+### Examples
+1. Consider vectors v<sub>1</sub>,..., v<sub>m</sub>, v<sub>m+1</sub>. Are they linearly independent?
+   * Solution: No, because for c<sub>1</sub> = ... = c<sub>m</sub> = 0 and c<sub>m</sub> ≠ 0 the folllowing is satisfied: c<sub>1</sub>v<sub>1</sub>+...+c<sub>m+1</sub>v<sub>m+1</sub>=0.
+## Basis and Dimension
+A set B = {v<sub>1</sub>, ..., v<sub>m</sub>} is a basis of a subspace V if B spans V and v<sub>1</sub>, ..., v<sub>m</sub> are linearly independent. The dim(V) = number of elements of a basis.
+### Remark
+For a `n x n` matrix, the following are equivalent:
+  1. A is invertible
+  2. rank(A) = n
+  3. dim(R(A)) = n (the dimension of range is simply rank)
+  4. dim(N(A)) = 0
+  5. R(A) = R<sup>m</sup>
