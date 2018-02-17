@@ -20,7 +20,7 @@ If V is a subspace of R<sup>n</sup>, then 0 is in V. If 0 is not in V, V cannot 
 ## Range and Nullspace of a Linear Transformation
 * Also known as image and kernel for general f: R<sup>n</sup> -> R<sup>m</sup>.
 * Let T: R<sup>n</sup> -> R<sup>m</sup> be a linear transformation. R(T(x)) = {T(x) | x ∈ R<sup>n</sup>} and N(T(x)) = {x ∈ R<sup>n</sup> | T(x)=0}
-### Fact:
+### Fact
 * R(T) is a subspace of R<sup>m</sup>
 * N(T) is a subspace of R<sup>n</sup>
 * If A is an `n x m` matrix:
