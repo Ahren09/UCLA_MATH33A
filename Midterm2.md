@@ -76,4 +76,6 @@ Find a basis for R(A).
      ```
     * Hence, the B = {v<sub>1</sub>, v<sub>3</sub>} where v<sub>i</sub> is the i<sup>th</sup> column vector of A.
     * dim(R(A)) = 2. As A is a `3 x 4` matrix, by rank-nullity theorem dim(R(A)) + dim(N(A)) = 4, implying dim(N(A))=2.
-    
+2. Let V and W be subspaces of ℝ<sup>n</sup>. Also, let the intersection of V and W be only {0}. Let B = {v<sub>1</sub>, ..., v<sub>m</sub>} be a basis of V. Let C = {w<sub>1</sub>, ..., v<sub>p</sub>} be a basis of W. Show that v<sub>1</sub>, ..., v<sub>m</sub>, w<sub>1</sub>, ..., v<sub>p</sub> are linearly independent.
+   * *Remark*: dim(V) + dim(W) = m + p ⊆ n
+   * Solution: Consider first v<sub>1</sub>, ..., v<sub>m</sub>. The claim is that they are linearly independent. If they weren't, then there would exist c<sub>1</sub>, ..., c<sub>m</sub>, d<sub>1</sub> such that c<sub>1</sub>v<sub>1</sub>+...+c<sub>m</sub>v<sub>m</sub>+d<sub>1</sub>w<sub>1</sub> = 0.
