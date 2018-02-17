@@ -46,7 +46,7 @@ v<sub>1</sub>, ..., v<sub>m</sub> are linearly independent if the only solution 
    * Solution: No, because for c<sub>1</sub> = ... = c<sub>m</sub> = 0 and c<sub>m</sub> ≠ 0 the folllowing is satisfied: c<sub>1</sub>v<sub>1</sub>+...+c<sub>m+1</sub>v<sub>m+1</sub>=0.
 ## Basis and Dimension
 A set B = {v<sub>1</sub>, ..., v<sub>m</sub>} is a basis of a subspace V if B spans V and v<sub>1</sub>, ..., v<sub>m</sub> are linearly independent. The dim(V) = number of elements of a basis.
-* How to find a basis for N(A)?
+* How to find a basis for N(A)? Solve Ax = 0. Write x that satisfies Ax=0 in a general form. Note: dim(N(A)) = number of free variables.
 ### Remark
 For a `n x n` matrix, the following are equivalent:
   1. A is invertible
