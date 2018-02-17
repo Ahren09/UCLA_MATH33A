@@ -53,3 +53,7 @@ For a `n x n` matrix, the following are equivalent:
   3. dim(R(A)) = n (the dimension of range is simply rank)
   4. dim(N(A)) = 0
   5. R(A) = R<sup>m</sup>
+  6. N(A) = {0}
+  7. B = {v<sub>1</sub>, ..., v<sub>n</sub>} is a basis of R<sup>n</sup>
+### Theorem
+The rank-nullity theorem states that if A is an `m x n` matrix, then dim(R(A)) + dim(N(A)) = n.
