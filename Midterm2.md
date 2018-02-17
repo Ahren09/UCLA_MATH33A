@@ -1,4 +1,4 @@
-# Midterm 2 (Feb 16, 2018)
+# Midterm 2 Review (Feb 16, 2018)
 ## Subspaces
 Given a subset V of ℝ<sup>n</sup>, how do we check if V is a subspace?
 * To show it is a subspace, verify:
