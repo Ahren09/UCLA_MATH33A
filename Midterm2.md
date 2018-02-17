@@ -26,7 +26,8 @@ If V is a subspace of R<sup>n</sup>, then 0 is in V. If 0 is not in V, V cannot 
 * If A is an `n x m` matrix:
   * R(X) = {Ax | x ∈ R<sup>m</sup>}
   * N(A) = {x ∈ R<sup>n</sup> | Ax=0}
-
+### Remark
+R(A) = all the linear combinations of v<sub>1</sub>, ..., v<sub>n</sub>, where all vectors in R<sup>m</sup> are of the form  λv<sub>1</sub> + ... + λv<sub>2</sub> for any real number constant λ.
 ### Examples
 1. f(t) = t<sup>3</sup> + at<sup>2</sup> + bt + c. The constants a, b, and c are in R. What is Im(f)?
    * Solution: Im(f) = R, because lim<sub>t→∞</sub>f(t) = +∞ and lim<sub>t→-∞</sub>f(t) = -∞.
@@ -36,4 +37,3 @@ If V is a subspace of R<sup>n</sup>, then 0 is in V. If 0 is not in V, V cannot 
    * Solution: What is N(T)? If x=(x<sub>1</sub>, ..., x<sub>3</sub>) ∈ N(T), then T(x) = 0 implies v<sub>1</sub>x<sub>1</sub>+...+v<sub>3</sub>x<sub>3</sub> = 0. Hence if x ∈ N(T) then x<sub>1</sub>, ..., x<sub>3</sub> need to satisfy v<sub>1</sub>x<sub>1</sub>+...+v<sub>3</sub>x<sub>3</sub> = 0
    * N(T) = {(x,y,z) ∈ R<sup>3</sup> | v<sub>1</sub>x+v<sub>2</sub>y+v<sub>3</sub>z = 0} is the plane through (0,0,0) in R<sup>3</sup>.
    * What is R(T)? Because any number can be written in the form v<sub>1</sub>x<sub>1</sub>+...+v<sub>3</sub>x<sub>3</sub> for some x<sub>1</sub>, ..., x<sub>3</sub> ∈ R, we know that R(T) = R.
-  
