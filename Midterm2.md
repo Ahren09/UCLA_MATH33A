@@ -92,3 +92,7 @@ Find a basis for R(A).
    * Note: dim(R(C)) ≤ 4. By rank-nullity theorem, dim(N(C)) ≥ 1. Before, we showed that N(C) ⊆ N(BC) = N(A). Hence, dim(N(A)) ≥ dim(N(C)) ≥ 1. By the rank-nullity theorem, dim(R(A)) < 5.
 ## Coordinates
 How to find the matrix of a linear transformation with respect to a given basis? If T is alinear transformation, [T(x)]<sub>B</sub> = A<sub>B</sub>[x]<sub>B</sub>, where B = {v<sub>1</sub>, ..., v<sub>m</sub>}. A<sub>B</sub> has column vectors [T(v<sub>1</sub>)]<sub>B</sub> through [T(v<sub>m</sub>)]<sub>B</sub>. 
+### Remarks
+If C, B are two different bases for V, then A<sub>B</sub> is similar to A<sub>C</sub>. There exists an invertible matrix S such that  A<sub>B</sub>S = SA<sub>C</sub>.
+### Exercises
+* 1(a) from practice midterm
