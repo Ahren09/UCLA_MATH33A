@@ -94,6 +94,8 @@ Find a basis for R(A).
 How to find the matrix of a linear transformation with respect to a given basis? If T is alinear transformation, [T(x)]<sub>B</sub> = A<sub>B</sub>[x]<sub>B</sub>, where B = {v<sub>1</sub>, ..., v<sub>m</sub>}. A<sub>B</sub> has column vectors [T(v<sub>1</sub>)]<sub>B</sub> through [T(v<sub>m</sub>)]<sub>B</sub>. 
 ### Remarks
 If C, B are two different bases for V, then A<sub>B</sub> is similar to A<sub>C</sub>. There exists an invertible matrix S such that  A<sub>B</sub>S = SA<sub>C</sub>.
-### Exercises
+### Recommended Exercises
 * 1(a) from practice midterm
 * Book section 3.4; exercises 19-30, 39-64
+### Gram-Schmidt Process
+* Left for independent study
