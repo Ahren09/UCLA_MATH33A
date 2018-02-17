@@ -27,4 +27,4 @@ If V is a subspace of R<sup>n</sup>, then 0 is in V. If 0 is not in V, V cannot 
   * R(X) = {Ax | x ∈ R<sup>m</sup>}
   * N(A) = {x ∈ R<sup>n</sup> | Ax=0}
 ### Examples
-1. f(t) = t<sup>3</sup> + at<sup>2</sup> + tt + c. The constants a, b, and c are in R. What is Im(f)?
+1. f(t) = t<sup>3</sup> + at<sup>2</sup> + bt + c. The constants a, b, and c are in R. What is Im(f)?
