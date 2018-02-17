@@ -18,3 +18,5 @@ If V is a subspace of R<sup>n</sup>, then 0 is in V. If 0 is not in V, V cannot 
      * But as X and Y are elements of V, x<sub>1</sub>-x<sub>2</sub>+10x<sub>4</sub>=0 and y<sub>1</sub>-y<sub>2</sub>+10y<sub>4</sub> imply that t<sub>1</sub>-t<sub>2</sub>+10t<sub>4</sub> = 0 and λX + μY are elements of V
 2. V = {y = x} contained in R<sup>2</sup>. W = {y = -x} contained in R<sup>2</sup>. Let Z = the union of V and W. Is Z a subspace of R<sup>2</sup?
    * Solution: No. Consider that the point (1,1) is in V and (1,-1) is in W. However, (1,1)+(1,-1)=(2,0) is not an element of V or W. Hence, (2,0) is not in the union of V and W, so condition (a) fails. Z cannot be a subspace of R<sup>2</sup>.
+## Range and Nullspace of a Linear Transformation
+* Also known as image and kernel for general f: R<sup>n</sup> -> R<sup>m</sup>.
