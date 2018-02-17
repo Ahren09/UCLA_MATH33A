@@ -28,4 +28,4 @@ If V is a subspace of R<sup>n</sup>, then 0 is in V. If 0 is not in V, V cannot 
   * N(A) = {x ∈ R<sup>n</sup> | Ax=0}
 ### Examples
 1. f(t) = t<sup>3</sup> + at<sup>2</sup> + bt + c. The constants a, b, and c are in R. What is Im(f)?
-   * Solution: Im(f) = R, because lim<sub>t->∞</sub>f(t) = +∞ and lim<sub>t->-∞</sub>f(t) = -∞.
+   * Solution: Im(f) = R, because lim<sub>t→∞</sub>f(t) = +∞ and lim<sub>t→-∞</sub>f(t) = -∞.
