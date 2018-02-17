@@ -25,5 +25,5 @@ If V is a subspace of R<sup>n</sup>, then 0 is in V. If 0 is not in V, V cannot 
 * R(T) is a subspace of R<sup>m</sup>
 * N(T) is a subspace of R<sup>n</sup>
 * If A is an `n x m` matrix:
-  * R(X) = {Ax | x ∈ R<sup>n</sup>}
+  * R(X) = {Ax | x ∈ R<sup>m</sup>}
   * N(A) = {x ∈ R<sup>n</sup> | Ax=0}
