@@ -37,3 +37,5 @@ R(A) = all the linear combinations of v<sub>1</sub>, ..., v<sub>n</sub>, where a
    * Solution: What is N(T)? If x=(x<sub>1</sub>, ..., x<sub>3</sub>) ∈ N(T), then T(x) = 0 implies v<sub>1</sub>x<sub>1</sub>+...+v<sub>3</sub>x<sub>3</sub> = 0. Hence if x ∈ N(T) then x<sub>1</sub>, ..., x<sub>3</sub> need to satisfy v<sub>1</sub>x<sub>1</sub>+...+v<sub>3</sub>x<sub>3</sub> = 0
    * N(T) = {(x,y,z) ∈ R<sup>3</sup> | v<sub>1</sub>x+v<sub>2</sub>y+v<sub>3</sub>z = 0} is the plane through (0,0,0) in R<sup>3</sup>.
    * What is R(T)? Because any number can be written in the form v<sub>1</sub>x<sub>1</sub>+...+v<sub>3</sub>x<sub>3</sub> for some x<sub>1</sub>, ..., x<sub>3</sub> ∈ R, we know that R(T) = R.
+4. A is a `u x p` matrix. B is `p x m`. How can you relate N(AB) and N(B)? Note that if x is an element of N(B), then Bx=0. This implies (AB)x=0. In turn, x is an element of N(AB), meaning N(B) is a subset of N(AB). Is it true that N(B) = N(AB)?
+   * Solution: No. Pick a matrix B that is `p x p` that is invertible, so N(B) = {0}.
