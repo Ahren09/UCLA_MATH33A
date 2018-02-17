@@ -97,5 +97,5 @@ If C, B are two different bases for V, then A<sub>B</sub> is similar to A<sub>C<
 ### Recommended Exercises
 * 1(a) from practice midterm
 * Book section 3.4; exercises 19-30, 39-64
-### Gram-Schmidt Process
+## Gram-Schmidt Process
 * Not covered in review session. Will still be on midterm
