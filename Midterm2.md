@@ -29,3 +29,7 @@ If V is a subspace of R<sup>n</sup>, then 0 is in V. If 0 is not in V, V cannot 
 ### Examples
 1. f(t) = t<sup>3</sup> + at<sup>2</sup> + bt + c. The constants a, b, and c are in R. What is Im(f)?
    * Solution: Im(f) = R, because lim<sub>t→∞</sub>f(t) = +∞ and lim<sub>t→-∞</sub>f(t) = -∞.
+2. Find a matrix whose kernel is the plane V = {(x,y,z) ∈ R<sup>3</sup> | x + y + 3z = 0}.
+   * Solution: Define the matrix `A = [1 1 3]`. If (x,y,z) is such that AX=0 (and thus x + y + 3z = 0).
+3. What is the range and nullspace of the linear transformation T(x) = v+x for all x ∈ R<sup>3</sup> and v = (v<sub>1</sub>, ..., v<sub>3</sub>) is a fixed nonzero vector?
+   * Solution: What is N(T)? If x=(x<sub>1</sub>, ..., x<sub>3</sub>) ∈ N(T), then T(x) = 0 implies v<sub>1</sub>x<sub>1</sub>+...+v<sub>3</sub>x<sub>3</sub> = 0. Hence if x ∈ N(T) then x<sub>1</sub>, ..., x<sub>3</sub> nueed to satisfy v<sub>1</sub>x<sub>1</sub>+...+v<sub>3</sub>x<sub>3</sub> = 0
