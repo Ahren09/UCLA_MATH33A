@@ -90,3 +90,5 @@ Find a basis for R(A).
    * dim(BC) = dim(A) ≤ dim(B) ≤ 5. 
    * However, we need to show that dim(A) < 5.
    * Note: dim(R(C)) ≤ 4. By rank-nullity theorem, dim(N(C)) ≥ 1. Before, we showed that N(C) ⊆ N(BC) = N(A). Hence, dim(N(A)) ≥ dim(N(C)) ≥ 1. By the rank-nullity theorem, dim(R(A)) < 5.
+## Coordinates
+How to find the matrix of a linear transformation with respect to a given basis?
