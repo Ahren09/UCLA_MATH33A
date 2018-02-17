@@ -86,4 +86,7 @@ Find a basis for R(A).
    * c<sub>1</sub>v<sub>1</sub> + ... + c<sub>m</sub>v<sub>m</sub> = 0 implies that every c = 0 because v<sub>1</sub>, ..., v<sub>m</sub> are linearly independent.
 6. Assume that A is a `5 x 5` matrix and A = BC. B is a `5 x 4` matrix. C is a `4 x 5` matrix. Show that A cannot be invertible.
    * Solution: if x ∈ R(BC), then there exists some y in ℝ<sup>5</sup> such that (BC)y = x implies B(Cy) = x. 
-   * Let z ∈ ℝ<sup>4</sup>. Bz = x means x ∈ R(B). Hence, R(BC) ⊆ R(B) ⊆ ℝ<sup>4</sup>.
+   * Let z ∈ ℝ<sup>4</sup>. Bz = x means x ∈ R(B). Hence, R(BC) ≤ R(B) ≤ ℝ<sup>5</sup>.
+   * dim(BC) = dim(A) ≤ dim(B) ≤ 5. 
+   * However, we need to show that dim(A) < 5.
+   * Note: dim(R(C)) ≤ 4. By rank-nullity theorem, dim(N(C)) ≥ 1. Before, we showed that N(C) ⊆ N(BC) = N(A). Hence, dim(N(A)) ≥ dim(N(C)) ≥ 1. By the rank-nullity theorem, dim(R(A)) < 5.
