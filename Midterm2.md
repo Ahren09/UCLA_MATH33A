@@ -20,3 +20,10 @@ If V is a subspace of R<sup>n</sup>, then 0 is in V. If 0 is not in V, V cannot 
    * Solution: No. Consider that the point (1,1) is in V and (1,-1) is in W. However, (1,1)+(1,-1)=(2,0) is not an element of V or W. Hence, (2,0) is not in the union of V and W, so condition (a) fails. Z cannot be a subspace of R<sup>2</sup>.
 ## Range and Nullspace of a Linear Transformation
 * Also known as image and kernel for general f: R<sup>n</sup> -> R<sup>m</sup>.
+* Let T: R<sup>n</sup> -> R<sup>m</sup> be a linear transformation. R(T(x)) = {T(x) | x ∈ R<sup>n</sup>} and N(T(x)) = {x ∈ R<sup>n</sup> | T(x)=0}
+### Fact:
+* R(T) is a subspace of R<sup>m</sup>
+* N(T) is a subspace of R<sup>n</sup>
+* If A is an `n x m` matrix:
+  * R(X) = {Ax | x ∈ R<sup>n</sup>}
+  * N(A) = {x ∈ R<sup>n</sup> | Ax=0}
