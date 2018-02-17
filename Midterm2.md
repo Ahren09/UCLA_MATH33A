@@ -9,4 +9,6 @@ Given a subset of R<sup>n</sup>, how do we check if it is a subspace or not?
   * Suggestion to satisfy both of these conditions at once: pick two random x and y in V and show that λx + μy exist in V.
 * To show it is not a subspace, it is enough to demonstrate that for either one of the two above conditions fail.
 ##### Remark
-If V is a subspace of R<sup>n</sup>, then 0 is in V. If 0 is not in V, V cannot be a subspace.
+If V is a subspace of R<sup>n</sup>, then 0 is in V. 
+
+If 0 is not in V, V cannot be a subspace.
