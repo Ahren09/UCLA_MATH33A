@@ -21,3 +21,4 @@
 ### Finding Dimension of a Subspace
 1. Find a basis of the subspace
 2. How many vectors are in the basis? The subspace has that many dimensions
+* [Examples](https://www.youtube.com/watch?v=kfVI7Tp98WM)
