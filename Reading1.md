@@ -13,3 +13,7 @@
 3. The resulting columns span the kernel of A
 ## 3.2 Subspaces of ℝ<sup>n</sup>, Bases and Linear Independence
 * The pivot columns of a matrix A are linearly independent vectors, while the non-pivot columns are linearly dependent
+### Prove V is a Subspace
+1. V is not empty
+2. V is closed under addition
+3. V is closed under scalar multiplication
