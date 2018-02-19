@@ -15,5 +15,5 @@
 * The pivot columns of a matrix A are linearly independent vectors, while the non-pivot columns are linearly dependent
 ### Prove V is a Subspace
 1. V is not empty
-2. V is closed under addition
-3. V is closed under scalar multiplication
+2. V is closed under addition (for any two vectors in V, the sum is also in V)
+3. V is closed under scalar multiplication (for any vector in V multiplied by a scalar, the product is also in V)
