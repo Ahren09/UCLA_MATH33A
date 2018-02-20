@@ -30,4 +30,11 @@
 * Equivalently, (nullity of A) + (rank of A) = m
 ## 3.4 Coordinates
 * [x]<sub>B</sub> indicates that the vector x has been written with respect to the basis B, not the standard basis
+### Find x given [x]<sub>B</sub>
+1. Multiply each element in [x]<sub>B</sub> by its corresponding vector in the basis B
+2. Sum the resulting vectors to yield x
 * [Example](https://www.youtube.com/watch?v=7P_XGrb3d3c)
+### Find [x]<sub>B</sub> given x
+1. Create an augmented matrix with the vectors in the basis B on the left and the vector x on the right
+2. Find rref of the matrix from step (1). The result in the right-most column of the augmented matrix is [x]<sub>B</sub>
+* [Example](https://www.youtube.com/watch?v=4sBXY1BCU3w)
