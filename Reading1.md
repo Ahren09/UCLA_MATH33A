@@ -7,19 +7,21 @@
 3. Multiply each of these column vectors by -1
 4. Append the identity matrix to the bottom of these column vectors such that their number of rows equals the number of columns in A
 5. The resulting columns span the kernel of A
+* [Example](https://www.youtube.com/watch?v=bqBacABVCeQ)
 ### Finding Image of a Matrix
 1. rref(A)
 2. Note the pivot columns. Write the corresponding original columns from A as their own column vectors, separated by commas, in order
 3. The resulting columns span the kernel of A
+* [Example](https://www.youtube.com/watch?v=xa92zIehBZ8)
 ## 3.2 Subspaces of ℝ<sup>n</sup>, Bases and Linear Independence
 * The pivot columns of a matrix A are linearly independent vectors, while the non-pivot columns are linearly dependent
 ### Prove V is a Subspace
 1. V must contain the zero vector
 2. V is closed under addition (for any two vectors in V, the sum of these vectors is also in V)
 3. V is closed under scalar multiplication (for any vector in V multiplied by a scalar, the product is also in V)
-* [Examples](https://www.youtube.com/watch?v=rPF6Xk5OGU8)
+* [Example](https://www.youtube.com/watch?v=rPF6Xk5OGU8)
 ## 3.3 The Dimension of a Subspace of ℝ<sup>n</sup>
 ### Finding Dimension of a Subspace
 1. Find a basis of the subspace
 2. How many vectors are in the basis? The subspace has that many dimensions
-* [Examples](https://www.youtube.com/watch?v=kfVI7Tp98WM)
+* [Example](https://www.youtube.com/watch?v=kfVI7Tp98WM)
