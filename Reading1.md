@@ -51,4 +51,5 @@
   * u<sub>j</sub> • u<sub>j</sub> = 1 if u<sub>j</sub> = u<sub>j</sub>
   * u<sub>j</sub> • u<sub>j</sub> = 0 if u<sub>j</sub> ≠ u<sub>j</sub>
 * Orthonormal vectors are linearly independent and form a basis of ℝ<sub>n</sub>
+* [Example](https://www.youtube.com/watch?v=7BFx8pt2aTQ)
 ## 5.2 Gram–Schmidt Process and QR Factorization
