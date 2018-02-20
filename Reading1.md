@@ -38,3 +38,5 @@
 1. Create an augmented matrix with the vectors in the basis B on the left and the vector x on the right
 2. Find rref of the matrix from step (1). The result in the right-most column of the augmented matrix is [x]<sub>B</sub>
 * [Example](https://www.youtube.com/watch?v=4sBXY1BCU3w)
+### Change of Coordinates: Find the Matrix of the Linear Transformation from Basis B to Basis A
+1. Create a new matrix wherein the columns are the vectors of the starting basis, written with respect to the goal basis. Hence, columns of the new matrix are [b<sub>1</sub>]<sub>A</sub>, [b<sub>2</sub>]<sub>A</sub>, ...
