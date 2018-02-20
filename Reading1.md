@@ -58,3 +58,4 @@
   * v<sub>2</sub> = x<sub>2</sub> - ((x<sub>2</sub> • v<sub>1</sub>) / (v<sub>1</sub> • v<sub>1</sub>))v<sub>1</sub>
   * v<sub>3</sub> = x<sub>3</sub> - ((x<sub>3</sub> • v<sub>1</sub>) / (v<sub>1</sub> • v<sub>1</sub>))v<sub>1</sub> - ((x<sub>3</sub> • v<sub>2</sub>) / (v<sub>2</sub> • v<sub>2</sub>))v<sub>2</sub>
   * At this point, we have orthogonal vectors. To get orthonormal vectors, we need to divide each v by its maginitude, ||v||. In other words, we divide each vector by the square root of the sum of its elements squared. 
+  * [Example](https://www.youtube.com/watch?v=swXcm_vTjWU)
