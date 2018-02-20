@@ -25,3 +25,6 @@
 1. Find a basis of the subspace
 2. How many vectors are in the basis? The subspace has that many dimensions
 * [Example](https://www.youtube.com/watch?v=kfVI7Tp98WM)
+### Rank-Nullity Theorem
+* For any `n x m` matrix: dim(ker A) + dim(imA) = m
+* Equivalently, (nullity of A) + (rank of A) = m
