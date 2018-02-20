@@ -30,3 +30,4 @@
 * Equivalently, (nullity of A) + (rank of A) = m
 ## 3.4 Coordinates
 * [x]<sub>B</sub> indicates that the vector x has been written with respect to the basis B, not the standard basis
+* [Example](https://www.youtube.com/watch?v=7P_XGrb3d3c)
