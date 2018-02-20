@@ -50,3 +50,4 @@
 * The vectors u<sub>1</sub>, u<sub>2</sub>, ... , u<sub>m</sub> in ℝ<sub>n</sub> are called orthonormal if they are all unit vectors and orthogonal to one another: 
   * u<sub>j</sub> • u<sub>j</sub> = 1 if u<sub>j</sub> = u<sub>j</sub>
   * u<sub>j</sub> • u<sub>j</sub> = 0 if u<sub>j</sub> ≠ u<sub>j</sub>
+* Orthonormal vectors are linearly independent and form a basis of ℝ<sub>n</sub>
