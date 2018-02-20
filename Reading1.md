@@ -20,6 +20,10 @@
 2. V is closed under addition (for any two vectors in V, the sum of these vectors is also in V)
 3. V is closed under scalar multiplication (for any vector in V multiplied by a scalar, the product is also in V)
 * [Example](https://www.youtube.com/watch?v=rPF6Xk5OGU8)
+### Determine if Vectors are Linearly Independent
+1. Create an augmented matrix with the vectors in question and add a zero column to the right-most side
+2. Determine rref of the matrix
+3. If there is a leading 1 in each column, the vectors are linearly independent. Otherwise, they are linearly dependent
 ## 3.3 The Dimension of a Subspace of ℝ<sup>n</sup>
 ### Finding Dimension of a Subspace
 1. Find a basis of the subspace
