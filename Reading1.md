@@ -53,3 +53,5 @@
 * Orthonormal vectors are linearly independent and form a basis of ℝ<sub>n</sub>
 * [Example](https://www.youtube.com/watch?v=7BFx8pt2aTQ)
 ## 5.2 Gram–Schmidt Process and QR Factorization
+* Given 3 vectors x<sub>1</sub>, x<sub>2</sub>, x<sub>3</sub>:
+  * v<sub>2</sub> = x<sub>2</sub> - ((x<sub>2</sub> * v<sub>1</sub>) / (v<sub>1</sub> * v<sub>1</sub>))v<sub>1</sub>
