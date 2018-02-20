@@ -46,3 +46,7 @@
 * [Example](https://www.youtube.com/watch?v=2K6ipONMIgg)
 ### Similar Matricies
 * Consider two `n × n` matrices A and B. We say that A is similar to B if there exists an invertible matrix S such that AS = SB, or B = S<sup>−1</sup>AS.
+## 5.1 Orthogonal Projections and Orthonormal Bases
+* The vectors u<sub>1</sub>, u<sub>2</sub>, ... , u<sub>m</sub> in ℝ<sub>n</sub> are called orthonormal if they are all unit vectors and orthogonal to one another: 
+  * u<sub>j</sub> • u<sub>j</sub> = 1 if u<sub>j</sub> = u<sub>j</sub>
+  * u<sub>j</sub> • u<sub>j</sub> = 0 if u<sub>j</sub> ≠ u<sub>j</sub>
