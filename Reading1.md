@@ -50,7 +50,8 @@
 * [Example](https://www.youtube.com/watch?v=2K6ipONMIgg)
 ### Find the Matrix B of the Linear Transformation T(x) = Ax with Respect to the Basis (v<sub>1</sub>, ... , v<sub>m</sub>)
 1. Write the basis v<sub>1</sub>, ... , v<sub>m</sub> as a single matrix with each v<sub>i</sub> being a column vector. Call it C.
-2. Find C<sup>-1</sup>
+2. Find C<sup>-1</sup>.
+   * To find the inverse of a `2 x 2` matrix, swap the positions of a and d, put negatives in front of b and c, and divide everything by the determinant (ad-bc).
 3. Multiply the matricies C<sup>-1</sup>AC. This will give us B. 
 ### Similar Matricies
 * Consider two `n × n` matrices A and B. We say that A is similar to B if there exists an invertible matrix S such that AS = SB, or B = S<sup>−1</sup>AS.
