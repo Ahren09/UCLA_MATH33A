@@ -53,6 +53,7 @@
 2. Find C<sup>-1</sup>.
    * To find the inverse of a `2 x 2` matrix, swap the positions of a and d, put negatives in front of b and c, and divide everything by the determinant (ad-bc).
 3. Multiply the matricies C<sup>-1</sup>AC. This will give us B. 
+* [Example}(https://www.youtube.com/watch?v=lCRGNykWqFI)
 ### Similar Matricies
 * Consider two `n × n` matrices A and B. We say that A is similar to B if there exists an invertible matrix S such that AS = SB, or B = S<sup>−1</sup>AS.
 ## 5.1 Orthogonal Projections and Orthonormal Bases
