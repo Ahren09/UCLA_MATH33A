@@ -4,7 +4,7 @@
 1. rref(A)
 2. Write the non-pivot columns of rref(A) as their own column vectors, separated by commas, in order
    * If there are no non-pivot columns in rref(A), then the columns are independent. This means the kernel only contains the zero vector, where the number of rows equals the number of columns in A 
-3. Multiply each of these column vectors by -1
+3. ***Multiply each of these column vectors by -1***
 4. Append the identity matrix to the bottom of these column vectors such that their number of rows equals the number of columns in A
 5. The resulting columns span the kernel of A
 * [Example](https://www.youtube.com/watch?v=bqBacABVCeQ)
