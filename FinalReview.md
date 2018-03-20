@@ -87,3 +87,6 @@
 * Eigenspace = null(λI-A) = ker(λI-A)
 * To find the basis for the Eigenspace, just find null(λI-A) for each Eigenvalue λ, one at a time
 * Geometric multiplicity: the dimension of the Eigenspace, dim(null(λI-A))
+### When are matricies diagonalizable?
+* [Only when the geometric multiplicities of the Eigenvalues add up to 1](https://www.youtube.com/watch?v=OR3_o1VERy)
+* For every Eigenvalue, the algebraic multiplicity is equal to the geometric multiplicity
