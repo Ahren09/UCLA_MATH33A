@@ -39,7 +39,7 @@
  ad-bc   | -c   a |
 ```
 ### Determinant of a 3x3 Matrix
-* Copy the first two columns of the matrix, put them on the right of the matrix
+* [Copy the first two columns of the matrix, put them on the right of the matrix](https://www.youtube.com/watch?v=V3e7m-qFDFU)
 * Notice that we can form three diagonals (left-right) of three elements. Multiply the elements of each diagonal, then add them all together. Call this result A.
 * Notice that there are three more diagonals (right-left). Again, multiply the elements of each and add them all together. Call this result B.
 * det(A) = A - B
