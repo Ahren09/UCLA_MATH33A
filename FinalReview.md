@@ -9,3 +9,5 @@
 * Find A<sup>T</sup>A and A<sup>T</sup>v
 * Find x in (A<sup>T</sup>A)x = A<sup>T</sup>v
 * Multiply each element of x by its corresponding vector in the subspace (i.e. first row x multiplied by the first subspace vector)
+### Orthogonal Projection onto a Subspace Shortcut
+* If the subspace V is composed of orthonormal vectors u<sub>1</sub>...u<sub>m</sub>, then the orthogonal projection is simply (u<sub>1</sub>·x)u<sub>1</sub>+...+(u<sub>m</sub>·x)u<sub>m</sub>
