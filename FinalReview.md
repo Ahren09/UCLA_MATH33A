@@ -31,9 +31,15 @@
 1. Find A<sup>T</sup>A and A<sup>T</sup>b
 2. Solve the augmented matrix formed by A<sup>T</sup>A on the left and A<sup>T</sup>b on the right; [A<sup>T</sup>A | A<sup>T</sup>b]
 ## 6.1 Intro to Determinants
-* Determinant of a 2x2 matrix:
+* Determinant of a 2x2 matrix: det(A) = ad-bc
+* Inverse of a 2x2 matrix: 
 ```
    1
  _____   | d   -b |
  ad-bc   | -c   a |
 ```
+### Determinant of a 3x3 Matrix
+* Copy the first two columns of the matrix, put them on the right of the matrix
+* Notice that we can form three diagonals (left-right) of three elements. Multiply the elements of each diagonal, then add them all together. Call this result A.
+* Notice that there are three more diagonals (right-left). Again, multiply the elements of each and add them all together. Call this result B.
+* det(A) = A - B
