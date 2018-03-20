@@ -77,3 +77,6 @@
 * We have a system of three equations that forms a 3x3 matrix A, with an augmented matrix on the right
 * Let A_x denote the matrix formed by replacing the first column of A with the augmented matrix, A_y is the matrix formed by replaying the second column of A with the augmented matrix, and so on.
 * x = det(A_x)/det(A), y = det(A_y)/det(y), z = det(A_z)/det(A)
+## 7.2 Finding the Eigenvalues of a Matrix
+* The sum of the diagonal entries of a square matrix A is called the trace of A, denoted by tr(A)
+### Using the Characteristic Polynomial to Find Eigenvalues
