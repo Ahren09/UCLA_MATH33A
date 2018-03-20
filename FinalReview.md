@@ -32,6 +32,7 @@
 2. Solve the augmented matrix formed by A<sup>T</sup>A on the left and A<sup>T</sup>b on the right; [A<sup>T</sup>A | A<sup>T</sup>b]
 ## 6.1 Intro to Determinants
 * Determinant of a 2x2 matrix: det(A) = ad-bc
+* If a matrix's determinant is 0, it is not invertible
 * Inverse of a 2x2 matrix: 
 ```
    1
