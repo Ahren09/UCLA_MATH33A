@@ -54,6 +54,7 @@
 ```
 ## 6.2 Properties of the Determinant
 * If A is a square matrix, the determininant of the transpose is the same as the determinant of the original: det(A<sup>T</sup>) = det(A) 
+* Similar matricies have the same determinants
 ### Elementary Row / Column Operations and Determinants
 * If B is obtained from A by dividing a row of A by a scalar k, then det(B) = (1/k)(det(A))
 * If B is obtained from A by a row swap, then det(B) = - det(A); the determinant is *alternating* on rows
