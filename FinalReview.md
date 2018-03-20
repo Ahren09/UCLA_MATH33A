@@ -90,3 +90,4 @@
 ### When are matricies diagonalizable?
 * [Only when the geometric multiplicities of the Eigenvalues add up to 1](https://www.youtube.com/watch?v=OR3_o1VERy)
 * For every Eigenvalue, the algebraic multiplicity is equal to the geometric multiplicity
+  * We don't have to check cases where algebraic multiplicity is 1
