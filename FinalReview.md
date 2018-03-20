@@ -91,3 +91,8 @@
 * [Only when the geometric multiplicities of the Eigenvalues add up to 1](https://www.youtube.com/watch?v=OR3_o1VERy)
 * For every Eigenvalue, the algebraic multiplicity is equal to the geometric multiplicity
   * We don't have to check cases where algebraic multiplicity is 1
+## 8.1 Orthogonal Diagonalization
+1. Find Eigenvalues of the matrix
+2. Find Eigenvectors of the matrix for each Eigenspace
+4. Orthonormalize each set of Eigenvectors with Gram-Schmidt
+5. Combine all the vectors together to form a matrix
