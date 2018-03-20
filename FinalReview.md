@@ -71,3 +71,7 @@
 ### Volume of a Parallelopiped 
 * Same as computing a 3x3 determinant
 * Build a matrix out of the vectors that define the edges, switch the result to a positive if it comes out negative
+### Cramer's Rule to Solve a 3x3 Matrix
+* We have a system of three equations that forms a 3x3 matrix A, with an augmented matrix on the right
+* Let A_x denote the matrix formed by replacing the first column of A with the augmented matrix, A_y is the matrix formed by replaying the second column of A with the augmented matrix, and so on.
+* x = det(A_x)/det(A), y = det(A_y)/det(y), z = det(A_z)/det(A)
