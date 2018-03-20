@@ -80,4 +80,5 @@
 ## 7.2 Finding the Eigenvalues of a Matrix
 * The sum of the diagonal entries of a square matrix A is called the trace of A, denoted by tr(A)
 ### Using the Characteristic Polynomial to Find Eigenvalues
-* Characteristic polynomial of A = det(λI-A)
+* Characteristic polynomial of A: f<sub>A</sub>(λ) = det(λI-A)
+* Eigenvalues of A are the roots of the characteristic polynomial 
