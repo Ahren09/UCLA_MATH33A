@@ -61,5 +61,13 @@
 * If B is obtained from A by adding a multiple of row A to another row, then det(B) = det(A)
 ### Determinants of Products and Powers
 * If A and B are square matricies and m is a positive integer:
-  * det(AB) = (det A) (det B)
+  * det(AB) = (det A) (det B) 
   * det(A<sup>m</sup>) = (det A)<sup>m</sup>
+## 6.3 Geometrical Interpretations of the Determinant; Cramer’s Rule
+* The determinant of an orthogonal matrix is either 1 or −1
+* An orthogonal n×n matrix A with det A = 1 is called a rotation matrix, and the linear transformation T (x) = Ax is called a rotation
+### Area of a Parallelogram
+* Same as finding the determininant of the 2x2 matrix formed by the vectors that define the parallelogram
+### Volume of a Parallelopiped 
+* Same as computing a 3x3 determinant
+* Build a matrix out of the vectors that define the edges, switch the result to a positive if it comes out negative
