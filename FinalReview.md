@@ -86,3 +86,4 @@
 * [The Eigenspace E<sub>λ</sub> is the set of all solutions Ax = λx; basically all Eigenvectors with Eigenvalue λ, except 0](https://www.youtube.com/watch?v=MU_KCNKKEA0)
 * Eigenspace = null(λI-A) = ker(λI-A)
 * To find the basis for the Eigenspace, just find null(λI-A) for each Eigenvalue λ, one at a time
+* Geometric multiplicity: the dimension of the Eigenspace, dim(null(λI-A))
