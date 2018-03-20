@@ -82,3 +82,7 @@
 ### Using the Characteristic Polynomial to Find Eigenvalues
 * Characteristic polynomial of A: f<sub>A</sub>(λ) = det(λI-A)
 * Eigenvalues of A are the roots of the characteristic polynomial 
+## 7.3 Finding the Eigenvectors of a Matrix
+* The Eigenspace E<sub>λ</sub> is the set of all solutions Ax = λx; basically all Eigenvectors with Eigenvalue λ, except 0
+* Eigenspace = null(λI-A)
+* To find the basis for the Eigenspace, just find null(λI-A) for each Eigenvalue λ, one at a time
