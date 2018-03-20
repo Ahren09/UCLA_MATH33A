@@ -30,3 +30,10 @@
 ### Least Squares Solution to a System Ax = b
 1. Find A<sup>T</sup>A and A<sup>T</sup>b
 2. Solve the augmented matrix formed by A<sup>T</sup>A on the left and A<sup>T</sup>b on the right; [A<sup>T</sup>A | A<sup>T</sup>b]
+## 6.1 Intro to Determinants
+* Determinant of a 2x2 matrix:
+```
+   1
+ _____   | d   -b |
+ ad-bc   | -c   a |
+```
