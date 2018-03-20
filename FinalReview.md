@@ -4,6 +4,8 @@
 * Vectors are orthogonal when their dot product is 0
 * Unit vector: a vector that has length of 1
 ### Orthogonal Projection onto a Subspace
-* We want to project vector x onto a subspace spanned by multiple vectors
+* [We want to project vector v onto a subspace spanned by multiple vectors](https://www.youtube.com/watch?v=kIWLliTGPEQ)
 * Create a matrix A out of the vectors being spanned, then find A<sup>T</sup>
-* Find A<sup>T</sup>A and A<sup>T</sup>x
+* Find A<sup>T</sup>A and A<sup>T</sup>v
+* Find x in (A<sup>T</sup>A)x = A<sup>T</sup>v
+* Multiply each element of x by its corresponding vector in the subspace (i.e. first row x multiplied by the first subspace vector)
