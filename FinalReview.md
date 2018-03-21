@@ -149,3 +149,6 @@
 2. Find Eigenvectors of the matrix for each Eigenspace
 4. Orthonormalize each set of Eigenvectors with Gram-Schmidt
 5. Combine all the vectors together to form a matrix
+## Misc. Notes
+* A symmetric matrix is the same as its transpose; A = A<sup>T</sup>
+* Orthogonal matricies have the property S<sup>T</sup> = S<sup>-1</sup> 
