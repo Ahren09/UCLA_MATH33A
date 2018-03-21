@@ -8,6 +8,8 @@
 4. Append the identity matrix to the bottom of these column vectors such that their number of rows equals the number of columns in A
 5. The resulting columns span the kernel of A
 * [Example](https://www.youtube.com/watch?v=bqBacABVCeQ)
+### Invertibility
+* A matrix is invertible iff: rref(A) = I, rank(A) = n, im(A) = n, ker(A) = {0}
 ### Finding Image of a Matrix (AKA Range)
 1. rref(A)
 2. Note the pivot columns. Write the corresponding original columns from A as their own column vectors, separated by commas, in order
