@@ -11,7 +11,7 @@
 ### Finding Image of a Matrix (AKA Range)
 1. rref(A)
 2. Note the pivot columns. Write the corresponding original columns from A as their own column vectors, separated by commas, in order
-3. The resulting columns span the kernel of A
+3. The resulting columns span the image of A
 * [Example](https://www.youtube.com/watch?v=xa92zIehBZ8)
 ## 3.2 Subspaces of ℝ<sup>n</sup>, Bases and Linear Independence
 * The pivot columns of a matrix A are linearly independent vectors, while the non-pivot columns are linearly dependent
