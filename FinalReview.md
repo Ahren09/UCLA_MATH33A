@@ -1,4 +1,57 @@
 # Math 33A: Linear Algebra - Final Exam Review
+## 3.1 Subspaces of ℝ<sup>n</sup> and their Dimensions
+### Finding Kernel of a Matrix (AKA Null Space)
+1. rref(A)
+2. Write the non-pivot columns of rref(A) as their own column vectors, separated by commas, in order
+   * If there are no non-pivot columns in rref(A), then the columns are independent. This means the kernel only contains the zero vector, where the number of rows equals the number of columns in A 
+3. ***Multiply each of these column vectors by -1***
+4. Append the identity matrix to the bottom of these column vectors such that their number of rows equals the number of columns in A
+5. The resulting columns span the kernel of A
+* [Example](https://www.youtube.com/watch?v=bqBacABVCeQ)
+### Invertibility
+* A matrix is invertible iff: rref(A) = I, rank(A) = n, im(A) = n, ker(A) = {0}
+### Finding Image of a Matrix (AKA Range)
+1. rref(A)
+2. Note the pivot columns. Write the corresponding original columns from A as their own column vectors, separated by commas, in order
+3. The resulting columns span the image of A
+* [Example](https://www.youtube.com/watch?v=xa92zIehBZ8)
+## 3.2 Subspaces of ℝ<sup>n</sup>, Bases and Linear Independence
+* The pivot columns of a matrix A are linearly independent vectors, while the non-pivot columns are linearly dependent
+### Prove V is a Subspace
+1. V must contain the zero vector
+2. V is closed under addition (for any two vectors in V, the sum of these vectors is also in V)
+3. V is closed under scalar multiplication (for any vector in V multiplied by a scalar, the product is also in V)
+* [Example](https://www.youtube.com/watch?v=rPF6Xk5OGU8)
+### Determine if Vectors are Linearly Independent
+1. Create an augmented matrix with the vectors in question and add a zero column to the right-most side
+2. Determine rref of the matrix
+3. If there is a leading 1 in each column, the vectors are linearly independent. Otherwise, they are linearly dependent
+## 3.3 The Dimension of a Subspace of ℝ<sup>n</sup>
+### Finding Dimension of a Subspace
+1. Find a basis of the subspace
+2. How many vectors are in the basis? The subspace has that many dimensions
+* [Example](https://www.youtube.com/watch?v=kfVI7Tp98WM)
+### Rank-Nullity Theorem
+* For any `n x m` matrix: dim(ker A) + dim(imA) = m
+* Equivalently, (nullity of A) + (rank of A) = m
+## 3.4 Coordinates
+* [x]<sub>B</sub> indicates that the vector x has been written with respect to the basis B, not the standard basis
+### Find x given [x]<sub>B</sub>
+1. Multiply each element in [x]<sub>B</sub> by its corresponding vector in the basis B
+2. Sum the resulting vectors to yield x
+* [Example](https://www.youtube.com/watch?v=7P_XGrb3d3c)
+### Find [x]<sub>B</sub> given x
+1. Create an augmented matrix with the vectors in the basis B on the left and the vector x on the right
+2. Find rref of the matrix from step (1). The result in the right-most column of the augmented matrix is [x]<sub>B</sub>
+* [Example](https://www.youtube.com/watch?v=4sBXY1BCU3w)
+### Find the Matrix B of the Linear Transformation T(x) = Ax with Respect to the Basis (v<sub>1</sub>, ... , v<sub>m</sub>)
+1. Write the basis v<sub>1</sub>, ... , v<sub>m</sub> as a single matrix with each v<sub>i</sub> being a column vector. Call it C.
+2. Find C<sup>-1</sup>.
+   * To find the inverse of a `2 x 2` matrix, swap the positions of a and d, put negatives in front of b and c, and divide everything by the determinant (ad-bc).
+3. Multiply the matricies C<sup>-1</sup>AC. This will give us B. 
+* [Example](https://www.youtube.com/watch?v=lCRGNykWqFI)
+### Similar Matricies
+* Consider two `n × n` matrices A and B. We say that A is similar to B if there exists an invertible matrix S such that AS = SB, or B = S<sup>−1</sup>AS.
 ## 5.1: Orthogonal Projections and Orthonormal Bases
 * Angle between two vectors: `cosθ = (u·v) / (|u||v|)`
 * Vectors are orthogonal when their dot product is 0
