@@ -152,3 +152,4 @@
 ## Misc. Notes
 * A symmetric matrix is the same as its transpose; A = A<sup>T</sup>
 * Orthogonal matricies have the property S<sup>T</sup> = S<sup>-1</sup> 
+* If you multiply an Eigenvector by its matrix, you get the 0 vector
